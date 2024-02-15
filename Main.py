@@ -30,6 +30,8 @@ async def purge(ctx, amount: int):
     await ctx.channel.purge(limit=amount + 1)
     await ctx.send(f'{amount} messages ont été supprimés.')
 
+@bot.command(name='help')
+    await ctx.send(' **en cours...**')
 # Remplacez "TOKEN" par le token réel de votre bot
 
 async function login() {
